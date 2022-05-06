@@ -1,0 +1,22 @@
+form {
+    margin: auto;
+    width: 500px;
+
+    div.form-group-seul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 635px;
+            height: 40px;
+            border: solid 2px grey;
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+    }
+}

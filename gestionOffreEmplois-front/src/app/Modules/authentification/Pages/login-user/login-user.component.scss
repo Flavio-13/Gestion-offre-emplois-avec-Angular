@@ -1,0 +1,46 @@
+form {
+    border: solid 2px black;
+    border-radius: 5px;
+    width: 400px;
+
+    position: relative;
+    left: 400px;
+    top: 100px;
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    .alertMessage {
+        font-size: small;
+        
+        color: red;
+
+        margin: 8px;
+        padding: 2px;
+        padding-left: 10px;
+    }
+
+    .link-inscription {
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        margin: 8px;
+
+        input {
+            height: 40px;
+            border: solid 2px grey;
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+    }
+}

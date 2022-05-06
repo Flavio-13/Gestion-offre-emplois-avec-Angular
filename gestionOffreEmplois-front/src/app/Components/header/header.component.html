@@ -1,0 +1,18 @@
+<header class="header">
+    <div>
+        <h1>e-KAROKA KANDRA</h1>
+    </div>
+    
+    <nav>
+        <span
+            #idSpan
+            *ngFor="let link of links"
+            [routerLink]="link.path"
+            routerLinkActive="active"
+            [title]="link.name"
+        >
+            {{ link.name }}
+        </span>
+    </nav>
+
+</header>

@@ -1,0 +1,22 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+
+    div.introSociete {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+        width: 400px;
+    }
+
+    div.intro {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+}
+

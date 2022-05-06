@@ -1,0 +1,17 @@
+div.inscription {
+    width: 50vw;
+    margin: auto;
+
+    p {
+        font-size: 30px;
+    }
+
+    div.bouton {
+        display: flex;
+        flex-direction: row;
+
+        button.margin-left {
+            margin-left: 80px;
+        }
+    }
+}

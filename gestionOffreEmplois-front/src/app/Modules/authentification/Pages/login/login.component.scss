@@ -1,0 +1,30 @@
+header.typeConnexion {
+    position: sticky;
+    top: 70px;
+
+    padding-top: 20px;
+
+    font-weight: bold;
+    font-size: large;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index: 2;
+
+    span {
+        padding: 10px;
+    }
+
+    span:hover {
+        cursor: pointer;
+        background-color: rgb(235, 235, 235);
+        border-bottom: solid 2px grey;
+    }
+}
+
+.active {
+    border-bottom: solid 2px grey;
+    background-color: rgb(235, 235, 235);
+}
+
